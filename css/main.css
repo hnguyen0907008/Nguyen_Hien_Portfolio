@@ -1,0 +1,903 @@
+.hidden
+{
+	display: none;
+}
+
+html
+{
+	width: 100%;
+}
+
+@font-face {
+  font-family: 'Raleway Light';
+  src: url('Raleway-Light.woff2') format('woff2'), 
+       url('Raleway-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url('Raleway-Bold.woff2') format('woff2'), 
+       url('Raleway-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mohave Bold';
+  src: url('Mohave-Bold.woff2') format('woff2'), 
+       url('Mohave-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mohave Light';
+  src: url('Mohave-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Baskervville';
+  src: url('Baskervville-Italic.woff2') format('woff2'), 
+       url('Baskervville-Italic.woff') format('woff');
+}
+
+body
+{
+	font-family: 'Raleway Light';
+	margin-top: 25px;
+	background-color:white;
+	height: 100%;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.container
+{
+	max-width: 90%;
+	padding-bottom: 70px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+header
+{
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   padding-left: 25px;
+   margin-bottom: 25px;
+   justify-content: space-between;
+   margin-top: 25px;
+}
+
+#mainLogo
+{
+	margin-right: 50px;
+}
+
+#mainLogo img
+{
+	width: 50px;
+}
+
+nav
+{
+	font-size: 18px;
+	display: flex;
+	flex-direction: row;
+}
+
+nav a
+{
+	color: black;
+	margin-right: 30px;
+	font-family: 'Raleway Bold';
+}
+
+nav a:hover
+{
+	border-bottom: 5px solid blue;
+	font-family: 'Raleway Bold';
+	color: blue;
+}
+
+/*Footer*/
+footer
+{
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding-left: 25px;
+   margin-bottom: 25px;
+   justify-content: space-between;
+}
+
+.color
+{
+	margin-right: 50px;
+}
+
+/*Contact*/
+#contact
+{
+	color: black;
+	font-family: 'Raleway Bold';
+}
+
+#contact:hover
+{
+	color: blue;
+}
+/*_______________________*/
+
+.socialMedia
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.socialMedia a img
+{
+	width: 20px;
+	margin-right: 18px;
+}
+
+/*INDEX*/
+
+.welcome
+{
+	width: 100%;
+	align-items: stretch;
+}
+
+.welcome img
+{
+	width: 100%;
+}
+
+.body, .works
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+}
+
+.works 
+{
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 20px;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.featured
+{ 
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.one
+{
+	background: url("../images/feat_traa.jpg") center no-repeat;
+}
+
+.three
+{
+	background: url("../images/feat_housecom.jpg") center no-repeat;
+}
+
+.four
+{
+	background: url("../images/feat_mashup.jpg") center no-repeat;
+}
+
+.five
+{
+	background: url("../images/feat_donate.jpg") center no-repeat;
+}
+
+.six
+{
+	background: url("../images/feat_vg.jpg") center no-repeat;
+}
+
+
+#workTitle
+{
+	font-family: 'Raleway Bold';
+	font-size: 40px;
+	letter-spacing: 3px;
+	color: white;
+}
+
+#workType
+{
+	font-size: 35px;
+}
+
+/*PROJECTS - EACH WORK*/
+.featuredHero
+{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+#spc
+{
+	width: 100%;
+}
+
+.briefInfo
+{
+	font-family: 'Mohave Light';
+	font-size: 18px;
+	height: 75px;
+	margin-top: 20px;
+}
+
+
+.briefInfo p
+{
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.fr
+{
+	border-left: 5px solid #648417;
+}
+
+.tr
+{
+	border-left: 5px solid #5687be;
+}
+
+.fo
+{
+	border-left: 5px solid gray;
+}
+
+.fi
+{
+	border-left: 5px solid #444539;
+}
+
+.sx
+{
+	border-left: 5px solid #86afb6;
+}
+
+#type
+{
+	font-family: 'Mohave Bold';
+}
+
+.pjIntro
+{
+	margin-top: 30px;
+	background-color: #E6E6E6;
+	padding: 20px;
+}
+
+/*Breakdown*/
+#pj
+{
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#breakdown
+{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#breakdown img
+{
+	width: 100%;
+}
+
+#bdTitle
+{
+	font-family: 'Mohave Bold';
+	margin-bottom: 15px;
+}
+
+#workBg
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#workBg, #webBg
+{
+	background-color: #efefef;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+
+/*End Breakdown*/
+
+
+.nextPj
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+	text-align: center;
+	font-family: 'Raleway Bold';
+	font-size: 20px;
+}
+
+.nextPj a
+{
+	color: white;
+	font-size: 20px;
+}
+
+.previous, .next
+{
+	background-color: red;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 50%;
+}
+
+/*ABOUT*/
+#greeting img
+{
+	width: 100%;
+}
+
+#greet
+{
+	font-family: 'Mohave Bold';
+	font-size: 21px;
+	margin-top: 15px;
+}
+
+#meIntro
+{
+	margin-top: 30px;
+	font-family: 'Raleway Bold';
+	margin-bottom: 20px;
+}
+
+#underline
+{
+	color: blue;
+}
+
+#underline:hover
+{
+	border-bottom: 3px solid blue;
+}
+
+#picture
+{
+	background-color: black;
+	height: 120px;
+	margin-top: 50px;
+}
+
+.categories
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+}
+
+#branding ul
+{
+	border-left: 5px solid #262687;
+}
+
+#edu 
+{
+	padding-left: 5px;
+	margin-left: 120px;
+}
+
+#edu p
+{
+	border-left: 5px solid #00FF00;
+	padding-left: 5px;
+}
+
+#skills
+{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-family: 'Mohave Bold';
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+#apps, #apps2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 320px;
+}
+
+#apps img
+{
+	width: 50px;
+}
+
+#apps2 img
+{
+	width: 60px;
+}
+
+#tool
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#note
+{
+	margin-top: 50px;
+	transform: rotate(-30deg);
+	width: 200px;
+	background-color: #efefef;
+	padding: 20px;
+	margin-bottom: 70px;
+	font-family: 'Baskervville';
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+#note:hover
+{
+	transform: none;
+}
+
+/*Contact Form*/
+#collab
+{
+	font-family: "Mohave Bold";
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+#contactInfo
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#socialContact
+{
+	display: flex;
+	flex-direction: row;
+	font-family: 'Raleway Bold';
+	margin-bottom: 15px;
+}
+
+#socialContact img
+{
+	width: 20px;
+	margin-right: 20px;
+}
+
+.contact
+{
+	background: url("../images/contact_bg.JPG") no-repeat center;
+	padding: 40px 20px 40px 20px;
+}
+
+form
+{
+	display: flex;
+	flex-direction: column;
+}
+
+label
+{
+	color: white;
+	font-family: "Raleway Bold";
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+#infoInput, textarea
+{
+	border-bottom: 2px dashed white;
+	background: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 100%;
+	height: 20px;
+	color: white;
+	font: "Raleway Light";
+	font-size: 16px;
+}
+
+textarea
+{
+	height: 100px;
+}
+
+#send
+{
+	margin: 0 auto;
+	background-color: black;
+	border: 2px solid white;
+	font-family: "Mohave Bold";
+	font-size: 21px;
+	color: white;
+	padding: 10px 20px 10px 20px;
+}
+
+/*PROJECTS*/
+
+.gif
+{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+
+#pjList
+{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 40px;
+}
+
+#pjList img
+{
+	width: 50%;
+}
+
+#pjLink
+{
+	background-color: black;
+	width: 50%;
+	padding: 15px;
+}
+
+#pjLink:hover
+{
+	background-color: #262687;
+}
+
+#linkTitle
+{
+	color: white;
+	font-family: 'Mohave Bold';
+	font-size: 20px;
+}
+
+#linkTitle:hover
+{
+	color: #00FF00;
+}
+
+#pjType
+{
+	color: #00FF00;
+	font-size: 15px;
+	margin-top: 5px;
+}
+
+
+
+/*Responsive*/
+@media screen and (min-width: 768px) {
+	.body, .works
+	{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.works
+	{
+		grid-gap: 40px;
+	}
+
+	a, #pjType, h3, p,  ul li, #skills, #note, #socialContact, label, input
+	{
+		font-size: 1.3em;
+	}
+
+	#bdTitle
+	{
+		font-size: 30px;
+		margin-top: 30px;
+	}
+
+
+	#linkTitle
+	{
+		font-size: 2em;
+	}
+
+	/*Each Project Page*/
+	.briefInfo
+	{
+		font-size: 20px;
+	}
+
+	#breakdown h4
+	{
+		font-size: 20px;
+	}
+
+	#workBg, #webBg
+	{
+		margin-top: 30px;
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#breakdown img
+	{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	/*About*/
+	#skillboard
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+	#edu 
+	{	
+		padding-left: 5px;
+		margin-left: 50px;
+	}
+
+	#note
+	{
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	#meIntro
+{
+	
+	margin-bottom: 30px;
+}
+
+	.contact
+	{
+		padding: 40px 30px 40px 30px;
+		margin-top: 30px;
+	}
+	
+	#collab
+	{
+		font-size: 40px;
+	}
+	
+	#socialContact img
+	{
+		width: 30px;
+	}
+
+}/*end Tablet*/
+  	
+
+@media screen and (min-width: 1024px) {
+	.body
+	{
+		width: 1600px;
+		margin: 0 auto;
+		margin-top: 80px;
+	}
+
+	.works 
+	{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin-top: 50px;
+		margin-bottom: 25px;
+	}
+
+  	#moreAbtMe
+  	{
+  		margin-top: 0px;
+ 
+  		width: 70%;
+  	}
+
+  	/*INDEX*/
+  	.welcome img
+  	{
+  		width: 80%;
+  		display: flex;
+		flex-direction: column;
+  		margin: 0 auto;
+  	}
+
+  	.projectPage
+  	{
+  		display: flex;
+  		flex-direction: row;
+  		width: 100%;
+  	}
+
+  	#projectList
+  	{
+  		display: flex;
+  		flex-direction: column;
+  		width: 50%;
+  		margin-left: 50%;
+  	}
+
+  	.gif
+  	{
+  		width: 40%;
+  		margin: 0 auto;
+  		margin-top: 150px;
+  		position: fixed;
+  	}
+
+  	#linkTitle
+  	{
+  		font-size: 2.5em;
+  	}
+
+  	 #pjType
+  	 {
+  	 	font-size: 1.5em;
+  	 }
+
+	#greeting, #meIntro, #demoreel, #skillboard
+	{
+		margin: 0 auto;
+	}
+
+	#greet 
+	{
+		text-align: center;
+		font-size: 60px;
+		margin-bottom: 40px;
+	}
+
+	#meIntro
+	{
+		text-align: center;
+	}
+
+	#demoreel
+	{
+		margin-top: 30px;
+	}
+
+	#skillboard
+	{
+		justify-content: space-between;
+		width: 800px;
+	}
+
+	#note
+	{
+		transform: none;
+		width: 700px;
+	}
+
+  	/*PROJECTS - EACH WORK*/
+	.featuredHero
+	{
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-around;
+	}
+
+	#spc
+	{
+		width: 70%;
+	}
+
+	.briefInfo
+	{
+		margin-top: 170px;
+		height: 85px;
+	}
+
+	.briefInfo p
+	{
+		font-size: 22px;
+	}
+
+	.tr
+	{
+		border-left: 7px solid #5687be;
+	}
+
+	.fr
+	{
+		border-left: 7px solid #648417;
+	}
+
+	.fi
+	{
+		border-left: 7px solid #444539;
+	}
+
+	.sx
+	{
+		border-left: 7px solid #86afb6;
+	}
+
+	.pjIntro
+	{
+		background-color: #E6E6E6;
+		padding: 30px;
+	}
+
+	/*Breakdown*/
+	#pj
+	{
+		margin-top: 50px;
+	}
+
+	#breakdown
+	{
+		margin-bottom: 30px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#breakdown img
+	{
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	#workBg, #webBg
+	{
+		margin-top: 20px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	#webBg
+	{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.contactPage
+	{
+		display: flex;
+		flex-direction: row;
+		margin: 0 auto;
+		padding-top: 50px;
+		justify-content: space-between;
+		width: 1600px;
+	}
+
+	.contact
+	{
+		width: 50%;
+	}
+
+} /*End Desktop*/
