@@ -174,7 +174,7 @@ footer
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 20px;
-	width: 100%;
+	width: 90%;
 	margin-top: 40px;
 }
 
@@ -233,12 +233,12 @@ footer
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	width: 90%;
 }
 
 #spc
 {
-	width: 100%;
+	width: 90%;
 }
 
 .briefInfo
@@ -305,7 +305,9 @@ footer
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 20px;
-	width: 100%;
+	width: 90%;
+	display: flex;
+	margin: 0 auto;
 }
 
 #breakdown img
